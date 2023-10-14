@@ -22,8 +22,13 @@ const userSchema = new Schema(
     },
     role: {
       type: String,
-      enum: ["Administrator ", "Boss", "User"],
-      default: "User",
+      enum: ["Admin", "Boss", "RegUser"],
+      default: "RegUser",
+    },
+    chief: {
+      type: Schema.Types.ObjectId,
+      ref: "User",
+      default: null,
     },
   },
   { versionKey: false, timestamps: true }
