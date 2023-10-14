@@ -3,6 +3,9 @@
 <h2>Server</h2>
 <p>https://teck-task-server.onrender.com/</p>
 
+<h2>Swagger</h2>
+<p>https://teck-task-server.onrender.com/docs/</p>
+
 <p>To install locally</p>
 <ul>
         <li>download the application using the command in your terminal:  gh repo clone vladyslav-rohalov/test-task-server</li>
