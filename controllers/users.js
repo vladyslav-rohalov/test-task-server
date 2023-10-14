@@ -1,5 +1,5 @@
 const User = require("../models/user");
-const { HttpError, controllerWrapper, updateResponse } = require("../helpers");
+const { HttpError, controllerWrapper } = require("../helpers");
 
 const getAll = async (req, res) => {
   const { role, _id, email, name, chief } = req.user;
