@@ -1,0 +1,36 @@
+{
+  "name": "test-task-server",
+  "version": "1.0.0",
+  "description": "test-task",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-rohalov/test-task-server.git"
+  },
+  "author": "Vladyslav Rohalov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladyslav-rohalov/test-task-server/issues"
+  },
+  "homepage": "https://github.com/vladyslav-rohalov/test-task-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "morgan": "1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^3.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
