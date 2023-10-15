@@ -39,8 +39,15 @@
  </ul>
 <p>Helpers</p>
  <ul>
-        <li>Controller wrapper - reused for all controllers, wrapper controller into try & ctach.</li>
+        <li>Controller wrapper - reused for all controllers, wrapped controller into try & ctach.</li>
         <li>HTTP ERROR - used to handle client errors.</li>
         <li>handle mogoose error - specific error handling .</li>
  </ul>
 
+<h3>Testing</h3>
+       <p>Authorization through Bearer token</p>
+ <ul>
+        <li>Admin. email: v.rohalov@gmail.com, password: Qwerty123! </li>
+        <li>Boss. email: pavlo@gmail.com, password: Qwerty123!</li>
+        <li>Regular user. email: kira@gmail.com, password: Qwerty123!</li>
+ </ul>

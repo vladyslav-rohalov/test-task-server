@@ -9,7 +9,6 @@ router.patch(
   "/subordinate/:id",
   isValidId,
   authenticate,
-  isBoss,
   userController.subordinate
 );
 

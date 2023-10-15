@@ -7,11 +7,12 @@ const getAll = async (req, res) => {
   let response = null;
 
   if (role === "Admin") {
-    const subordinates = await getSubordinates(_id);
-    response = {
-      admin: { _id, name, email, role },
-      subordinates,
-    };
+    const all = await User.find();
+    const updated = all.map((user) => {
+      const { _id, name, email, role, chief } = user.toObject();
+      return { _id, name, email, role, chief };
+    });
+    response = updated;
   }
 
   if (role === "Boss") {
